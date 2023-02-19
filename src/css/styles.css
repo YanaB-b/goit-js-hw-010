@@ -29,6 +29,10 @@ p{
 }
 .text{
   font-size: 30px;
+  font: inherit;
+  padding: 8px;
+  max-width: 320px;
+  margin-bottom: 16px;
 }
 
 .span{
