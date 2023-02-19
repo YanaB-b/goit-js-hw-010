@@ -22,7 +22,7 @@ function onSubmit(e) {
         toClearPage();
         return;
     }
-fetchCountries(value).then(createMarkup).catch(onError);
+fetchCountries(input).then(createMarkup).catch(onError);
 
 }
 function createMarkup(article) {
